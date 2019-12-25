@@ -1,0 +1,11 @@
+G:\Repositórios visual studio\Xadrez\Xadrez\obj\Debug\netcoreapp3.1\Xadrez.csprojAssemblyReference.cache
+G:\Repositórios visual studio\Xadrez\Xadrez\obj\Debug\netcoreapp3.1\Xadrez.AssemblyInfoInputs.cache
+G:\Repositórios visual studio\Xadrez\Xadrez\obj\Debug\netcoreapp3.1\Xadrez.AssemblyInfo.cs
+G:\Repositórios visual studio\Xadrez\Xadrez\bin\Debug\netcoreapp3.1\Xadrez.exe
+G:\Repositórios visual studio\Xadrez\Xadrez\bin\Debug\netcoreapp3.1\Xadrez.deps.json
+G:\Repositórios visual studio\Xadrez\Xadrez\bin\Debug\netcoreapp3.1\Xadrez.runtimeconfig.json
+G:\Repositórios visual studio\Xadrez\Xadrez\bin\Debug\netcoreapp3.1\Xadrez.runtimeconfig.dev.json
+G:\Repositórios visual studio\Xadrez\Xadrez\bin\Debug\netcoreapp3.1\Xadrez.dll
+G:\Repositórios visual studio\Xadrez\Xadrez\bin\Debug\netcoreapp3.1\Xadrez.pdb
+G:\Repositórios visual studio\Xadrez\Xadrez\obj\Debug\netcoreapp3.1\Xadrez.dll
+G:\Repositórios visual studio\Xadrez\Xadrez\obj\Debug\netcoreapp3.1\Xadrez.pdb
