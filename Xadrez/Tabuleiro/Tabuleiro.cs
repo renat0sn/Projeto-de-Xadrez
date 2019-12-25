@@ -2,15 +2,20 @@
 {
     class Tabuleiro
     {
-        public int Linha { get; set; }
-        public int Coluna { get; set; }
-        private Peca[,] Pecas { get; set; }
+        public int Linhas { get; set; }
+        public int Colunas { get; set; }
+        private Peca[,] Pecas;
 
-        public Tabuleiro(int linha, int coluna)
+        public Tabuleiro(int linhas, int colunas)
         {
-            Linha = linha;
-            Coluna = coluna;
-            Pecas = new Peca[Linha, Coluna];
+            Linhas = linhas;
+            Colunas = colunas;
+            Pecas = new Peca[Linhas, Colunas];
+        }
+
+        public Peca Peca(int linha, int coluna)
+        {
+            return Pecas[linha, coluna];
         }
     }
 }
