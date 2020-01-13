@@ -16,5 +16,10 @@ namespace tabuleiro
             Cor = cor;
             Tab = tab;
         }
+
+        public void IncrementarNumMovimentos()
+        {
+            NumMovimentos++;
+        }
     }
 }
