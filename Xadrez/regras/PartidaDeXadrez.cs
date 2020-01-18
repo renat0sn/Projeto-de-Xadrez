@@ -139,6 +139,18 @@ namespace regras
                 throw new TabuleiroException("Você não pode se colocar em xeque!");
             }
 
+            Peca p = Tab.Peca(destino);
+
+            //PROMOÇAO (jogada especial)
+            if((p.Cor == Cor.Branco && destino.Linha == 0) || (p.Cor == Cor.Preto && destino.Linha == 7))
+            {
+                p = Tab.RetirarPeca(destino);
+                Pecas.Remove(p);
+                Peca dama = new Dama(p.Cor, Tab);
+                Tab.InserirPeca(dama, destino);
+                Pecas.Add(dama);
+            }
+
             if (EstaEmXeque(Adversaria(JogadorAtual)))
             {
                 Xeque = true;
@@ -157,8 +169,6 @@ namespace regras
                 Turno++;
                 MudaJogador();
             }
-
-            Peca p = Tab.Peca(destino);
 
             //EN PASSANT (jogada especial)
             if(p is Peao && (destino.Linha == origem.Linha - 2 || destino.Linha == origem.Linha + 2))
